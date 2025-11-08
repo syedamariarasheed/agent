@@ -244,7 +244,7 @@ langchain-community==0.3.24
     # via
     #   agents (pyproject.toml)
     #   langchain-experimental
-langchain-core==0.3.64
+# langchain-core==0.3.64
     # via
     #   langchain
     #   langchain-anthropic
