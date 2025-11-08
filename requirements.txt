@@ -236,15 +236,15 @@ jsonschema-specifications==2025.4.1
     #   openapi-schema-validator
 jupyterlab-widgets==3.0.15
     # via ipywidgets
-langchain==0.3.25
+# langchain==0.3.25
     # via langchain-community
-langchain-anthropic==0.3.15
+# langchain-anthropic==0.3.15
     # via agents (pyproject.toml)
-langchain-community==0.3.24
+# langchain-community==0.3.24
     # via
     #   agents (pyproject.toml)
     #   langchain-experimental
-langchain-core==0.3.64
+# langchain-core==0.3.64
     # via
     #   langchain
     #   langchain-anthropic
@@ -255,11 +255,11 @@ langchain-core==0.3.64
     #   langgraph
     #   langgraph-checkpoint
     #   langgraph-prebuilt
-langchain-experimental==0.3.4
+# langchain-experimental==0.3.4
     # via agents (pyproject.toml)
-langchain-openai==0.3.21
+# langchain-openai==0.3.21
     # via agents (pyproject.toml)
-langchain-text-splitters==0.3.8
+# langchain-text-splitters==0.3.8
     # via langchain
 langgraph==0.4.8
     # via agents (pyproject.toml)
@@ -274,7 +274,7 @@ langgraph-prebuilt==0.2.2
     # via langgraph
 langgraph-sdk==0.1.70
     # via langgraph
-langsmith==0.3.45
+# langsmith==0.3.45
     # via
     #   agents (pyproject.toml)
     #   langchain
@@ -690,3 +690,4 @@ zstandard==0.23.0
     # via langsmith
 whisper==1.1.10
 langchain-google-genai==3.0.1
+langchain-core=1.0.3
