@@ -244,7 +244,7 @@ langchain-community==0.3.24
     # via
     #   agents (pyproject.toml)
     #   langchain-experimental
-# langchain-core==0.3.64
+langchain-core==0.3.64
     # via
     #   langchain
     #   langchain-anthropic
@@ -690,4 +690,3 @@ zstandard==0.23.0
     # via langsmith
 whisper==1.1.10
 langchain-google-genai==3.0.1
-langchain-core==1.0.3
