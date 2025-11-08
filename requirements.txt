@@ -688,8 +688,8 @@ zipp==3.23.0
     # via importlib-metadata
 zstandard==0.23.0
     # via langsmith
-whisper==1.1.10
+openai-whisper==20250625
 langchain-google-genai==3.0.1
 langchain-core==1.0.3
 langchain==1.0.4
-google-generativeai==0.8.5
+# google-generativeai>=0.7.0,<1.0.0

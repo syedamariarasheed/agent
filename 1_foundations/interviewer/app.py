@@ -12,34 +12,12 @@ from PyPDF2 import PdfReader
 import whisper
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage, AIMessage
-import google.generativeai as genai
-
-
-required_packages = [
-    "google-generativeai",
-    "pypdf",
-    "gradio",
-    "requests",
-    "python-dotenv",
-    "langchain",
-    "langchain-core",
-    "langchain-community",
-    "langchain-google-genai",
-    "whisper"
-]
-
-for package in required_packages:
-    try:
-        __import__(package.replace("-", "_"))
-    except ImportError:
-        print(f"📦 Installing {package} ...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
+# import google.generativeai as genai
 
 
 GOOGLE_API_KEY = "AIzaSyApG4OQ2GbqDe9DlogkIU0LgzBrop7ESgw"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
-genai.configure(api_key=GOOGLE_API_KEY)
+# genai.configure(api_key=GOOGLE_API_KEY)
 whisper_model = whisper.load_model("base")
 
 # --- HELPERS ---
