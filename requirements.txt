@@ -261,18 +261,18 @@ jupyterlab-widgets==3.0.15
     # via agents (pyproject.toml)
 # langchain-text-splitters==0.3.8
     # via langchain
-langgraph==0.4.8
+# langgraph==0.4.8
     # via agents (pyproject.toml)
-langgraph-checkpoint==2.0.26
+# langgraph-checkpoint==2.0.26
     # via
     #   langgraph
     #   langgraph-checkpoint-sqlite
     #   langgraph-prebuilt
-langgraph-checkpoint-sqlite==2.0.10
+# langgraph-checkpoint-sqlite==2.0.10
     # via agents (pyproject.toml)
-langgraph-prebuilt==0.2.2
+# langgraph-prebuilt==0.2.2
     # via langgraph
-langgraph-sdk==0.1.70
+# langgraph-sdk==0.1.70
     # via langgraph
 # langsmith==0.3.45
     # via
